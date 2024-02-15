@@ -12,12 +12,12 @@ returns = null
 function addNote() { //TODO: when same location, add another note underneath same location
     const noteText = noteInput.value;
     const locationText = noteLocation.value;
-    if(noteText ==='' || locationText ==='')return; // if fields are blank, return null
+    if(noteText ==='')return; // if fields are blank, return null
     const li = document.createElement('li');
     li.innerHTML = ` <span><strong>${locationText}:</strong><br>${noteText}</span>
     <button class="deleteButton">Delete</button>
     `; // format of note being appended
-    noteList.appendChild(li);s
+    noteList.appendChild(li);
     noteInput.value = '';
 
     // removes list item after delete is clicked
