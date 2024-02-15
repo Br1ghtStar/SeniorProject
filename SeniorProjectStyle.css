@@ -1,0 +1,65 @@
+h1{
+    color:blue;
+    font-size: 40px;
+}
+h3{
+    color:cyan;
+}
+body{
+    background-color: gold;
+}
+section{
+    background-color: green;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 40px;
+    border: 3px solid;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-style: italic;
+    font-size: 20px;
+}
+/*#weather{
+}
+#locations{
+}
+#activities{
+}
+#calendar{
+}
+#notes{
+}*/
+#navigation{
+    padding-top: 40px;
+}
+#options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 40px;
+}
+#banner{
+    background-color: magenta;
+}
+button{
+    color:green;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor:pointer;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#notesBody,#notesHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
