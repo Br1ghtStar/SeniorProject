@@ -51,15 +51,18 @@ button{
     border-radius: 4px;
     cursor:pointer;
 }
-form{
+/*form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}*/
+form,#weatherBody,#notesBody,#reviewBody,#calendarBody,#safetyResourceBody,#locationBody,#activitiesBody {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#notesBody,#notesHeader{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+a{
+    color: white;
 }
